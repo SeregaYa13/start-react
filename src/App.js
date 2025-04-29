@@ -5,7 +5,11 @@ import ItemSelector from './components/ItemSelector';
 import BlockColor from './components/BlockColor';
 import './App.css';
 import ClickerGame from './components/ClickerGame';
-
+import DragAndDrop from './components/DragAndDrop';
+import DynamicForm from './components/DinamicForm';
+import UserFetch from './components/UserFetch';
+import PostUsers from './components/PostsUser';
+import AddPostForm from './components/AddpostForm';
 
 function App() {
   return (
@@ -21,7 +25,12 @@ function App() {
         <BlockColor color='red'/>
         <BlockColor color='green'/>
         <BlockColor color='yellow'/>
-
+        <DragAndDrop/>
+        <DynamicForm/>
+        <UserFetch/>
+        <PostUsers/>
+        <AddPostForm/>
+        
          </>
     
   );
